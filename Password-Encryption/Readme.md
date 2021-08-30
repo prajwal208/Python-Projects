@@ -1,4 +1,4 @@
-Password Manger with python, Encryption of Password with help of cryptography fernet.Python supports a cryptography package that helps us encrypt and decrypt data.
+Password Manager with python, Encryption of Password with help of cryptography fernet.Python supports a cryptography package that helps us encrypt and decrypt data.
 
 what program does:</br>
 1.Takes the input UserName and Password👩‍💻</br>
