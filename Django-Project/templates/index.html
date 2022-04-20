@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Django Project-Text Analyzer</h1>
+    <form action="/analyze" method="post">{% csrf_token %}
+    <textarea name="text" style="width: 687px; height: 209px;"></textarea><br>
+    <input type="checkbox" name="removepunc"/>Removepunc<br>
+    <input type="checkbox" name="textupper"/>UpperCase<br>
+    <input type="checkbox" name="removeline"/>RemoveLine<br>
+    <input type="checkbox" name="spaceremover"/>spaceremover<br>
+    <input type="checkbox" name="charcount"/>charcount<br>
+   <button type="submit">Analyze Text</button>
+    </form>
+   
+</body>
+</html>
